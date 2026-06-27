@@ -1,0 +1,57 @@
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Build directories
+build/
+Build/
+out/
+bin/
+dist/
+
+# Executables (your project specific ones)
+hello
+dotProduct
+tripleStep
+
+# Core dumps
+core
+core.*
+
+# CUDA compiled files
+*.cubin
+*.fatbin
+*.ptx
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

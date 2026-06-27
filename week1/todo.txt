@@ -1,0 +1,111 @@
+=======================================================
+        UPDATED CODING PLAN — WEEK 1
+=======================================================
+The readings should not remain abstract.
+By the end of Week 1, you should have coded these.
+
+-------------------------------------------------------
+EXERCISE 1 — Matrix Core
+-------------------------------------------------------
+Implement from scratch:
+  - Vector dot product
+  - Matrix-vector multiplication
+  - Matrix-matrix multiplication
+  - Transpose
+  - L2 norm
+
+Prefer:
+  - Python first
+  - Then C++ version if possible
+
+What to observe:
+  - Contiguous memory
+  - Nested loop ordering
+  - Cache behavior
+  - Why data movement can dominate arithmetic
+
+>> This is your first OS-level optimization exercise.
+
+-------------------------------------------------------
+EXERCISE 2 — Probability Lab
+-------------------------------------------------------
+Implement:
+  - Bernoulli and categorical sampling
+  - Empirical mean
+  - Variance
+  - Conditional probability from counts
+  - Bayes rule on a toy problem
+
+Output — Print both:
+  - Analytical result
+  - Sampled estimate
+
+>> This builds probabilistic intuition numerically.
+
+-------------------------------------------------------
+EXERCISE 3 — Linear Regression from Scratch
+-------------------------------------------------------
+Implement:
+  - Synthetic data generation
+  - Prediction
+  - MSE loss
+  - Gradient descent
+  - Parameter update logging
+
+Do NOT use sklearn.
+
+Minimum output — For each iteration print:
+  - Loss
+  - Weight
+  - Bias
+
+Advanced extension — Run with:
+  - Full batch
+  - Mini-batch
+  - Stochastic
+  Then compare stability and convergence.
+
+-------------------------------------------------------
+EXERCISE 4 — Bandit Simulator
+-------------------------------------------------------
+Implement:
+  - Epsilon-greedy
+  - Optimistic initialization
+  - UCB
+  - Gradient bandit (if possible)
+
+Compare:
+  - Cumulative reward
+  - Action counts
+  - Average reward over time
+
+>> This is your first true online learning loop.
+
+-------------------------------------------------------
+EXERCISE 5 — Tiny Bayesian Network
+-------------------------------------------------------
+Implement a toy model:
+  Rain → Traffic → Delay
+
+Compute:
+  - Joint probabilities
+  - Marginals
+  - Conditional queries
+
+Advanced extension:
+  - Represent CPTs as arrays
+  - Write the computation cleanly enough to generalize later
+
+-------------------------------------------------------
+EXERCISE 6 — Minimal Agent Loop
+-------------------------------------------------------
+Implement a tiny environment and agent:
+  - Observe state
+  - Choose action
+  - Receive feedback
+  - Update internal values
+
+Even a grid or bandit-style loop is enough.
+
+>> This exercise is where DL, RL, PGM, and AIAMA
+   start to feel like one system.
